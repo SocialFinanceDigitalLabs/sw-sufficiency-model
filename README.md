@@ -1,7 +1,7 @@
 # sw-sufficiency-model
 
 ```mermaid
-graph erDiagram;
+erDiagram;
     CHILD ||--|| GENDER_IDENTITY
     CHILD ||--|| ETHNICITY
     CHILD ||--o{ PLACEMENT
