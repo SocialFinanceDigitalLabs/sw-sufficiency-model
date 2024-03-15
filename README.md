@@ -10,6 +10,7 @@ erDiagram
     PLACEMENT ||--|| REFERRAL : "linked to"
     CHILD ||--|{ REFERRAL : "linked to"
     REFERRAL ||--o{ IMPORTANT_LOCATION : "has a"
+    REFERRAL ||--o{ NEEDS : "has a"
     CHILD {
         string id PK
         string first_name
