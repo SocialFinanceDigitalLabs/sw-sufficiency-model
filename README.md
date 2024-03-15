@@ -2,14 +2,14 @@
 
 ```mermaid
 erDiagram
-    CHILD ||--|| GENDER_IDENTITY : has
-    CHILD ||--|| ETHNICITY : has
-    CHILD ||--o{ PLACEMENT : has
-    PLACEMENT ||--|| PROVIDER : has
-    PLACEMENT ||--|| PLACEMENT_TYPE: has
-    PLACEMENT ||--|| REFERRAL : linked to
-    CHILD ||--|{ REFERRAL : linked to
-    REFERRAL ||--o{ IMPORTANT_LOCATION : has
+    CHILD ||--|| GENDER_IDENTITY : "has a"
+    CHILD ||--|| ETHNICITY : "has a"
+    CHILD ||--o{ PLACEMENT : "has a"
+    PLACEMENT ||--|| PROVIDER : "has a"
+    PLACEMENT ||--|| PLACEMENT_TYPE: "has a"
+    PLACEMENT ||--|| REFERRAL : "linked to"
+    CHILD ||--|{ REFERRAL : "linked to"
+    REFERRAL ||--o{ IMPORTANT_LOCATION : "has a"
     CHILD {
         string id PK
         string first_name
