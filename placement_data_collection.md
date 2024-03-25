@@ -1,4 +1,4 @@
-# sw-sufficiency-model
+# placement-agreement-data-collection
 
 ```mermaid
 erDiagram
