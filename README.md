@@ -64,8 +64,6 @@ erDiagram
     NEEDS {
         int id PK
         boolean comms_req
-        boolean leanring_needs
-        boolean health_needs
         boolean cultural_needs
         boolean sibling_placement
     }
