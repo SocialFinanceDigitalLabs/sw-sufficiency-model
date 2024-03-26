@@ -7,10 +7,9 @@ erDiagram
     CHILD ||--o{ PLACEMENT : "has a"
     PLACEMENT ||--|| PROVIDER : "has a"
     PLACEMENT ||--|| PLACEMENT_TYPE: "has a"
-    PLACEMENT ||--|| REFERRAL : "linked to"
+    REFERRAL ||--|| PLACEMENT : "linked to"
     CHILD ||--|{ REFERRAL : "linked to"
     REFERRAL ||--o{ IMPORTANT_LOCATION : "has a"
-    REFERRAL ||--o{ NEEDS : "has a"
     CHILD {
         string id PK
         string first_name
@@ -66,15 +65,6 @@ erDiagram
         string location_to_avoid
         string place_of_worship
     }
-    NEEDS {
-        int id PK
-        categorical comms_req
-        boolean adaptation_to_home
-        boolean cultural_needs
-        boolean sibling_placement
-    }
 
-
-    
 ```
 
