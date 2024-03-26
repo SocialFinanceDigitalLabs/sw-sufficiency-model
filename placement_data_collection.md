@@ -2,8 +2,8 @@
 
 ```mermaid
 erDiagram
-    CHILD ||--|{ REFERRAL : "linked to"
-    REFERRAL ||--o{ RISKS : "has a"
+    CHILD ||--|| PLACEMENT : "linked to"
+    PLACEMENT ||--o{ RISKS : "has a"
     CHILD {
         string id PK
         string first_name
@@ -11,12 +11,13 @@ erDiagram
         int age
         int siblings
     }
-    REFERRAL {
-        int id PK
-        date placement_needed_date
-        string placement_location_preferred
-        string placement_type_preferred
-        date referral_date
+    PLACEMENT {
+        string id PK
+        date latest_placement_date
+        string placement_location
+        categorical placement_type
+        string school_location
+        string placement_name
     }
     RISKS {
         int id PK
