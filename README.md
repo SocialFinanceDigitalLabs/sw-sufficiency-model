@@ -7,7 +7,7 @@ erDiagram
     CHILD ||--o{ PLACEMENT : "has a"
     PLACEMENT ||--|| PROVIDER : "has a"
     PLACEMENT ||--|| PLACEMENT_TYPE: "has a"
-    PLACEMENT ||--|| REFERRAL : "linked to"
+    REFERRAL ||--|| PLACEMENT : "linked to"
     CHILD ||--|{ REFERRAL : "linked to"
     REFERRAL ||--o{ IMPORTANT_LOCATION : "has a"
     PLACEMENT ||--o{ NEEDS : "has a"
