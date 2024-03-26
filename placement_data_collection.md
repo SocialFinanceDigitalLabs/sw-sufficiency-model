@@ -4,6 +4,7 @@
 erDiagram
     CHILD ||--|| PLACEMENT : "linked to"
     PLACEMENT ||--o{ RISKS : "has a"
+    REFERRAL ||--o{ NEEDS : "has a"
     CHILD {
         string id PK
         string first_name
