@@ -4,7 +4,7 @@
 erDiagram
     CHILD ||--|| PLACEMENT : "linked to"
     PLACEMENT ||--o{ RISKS : "has a"
-    REFERRAL ||--o{ NEEDS : "has a"
+    PLACEMENT ||--o{ NEEDS : "has a"
     CHILD {
         string id PK
         string first_name
@@ -19,6 +19,13 @@ erDiagram
         categorical placement_type
         string school_location
         string placement_name
+    }
+    NEEDS {
+        int id PK
+        categorical comms_req
+        boolean adaptation_to_home
+        boolean cultural_needs
+        boolean sibling_placement
     }
     RISKS {
         int id PK
