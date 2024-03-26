@@ -7,7 +7,6 @@ erDiagram
     CHILD ||--o{ PLACEMENT : "has a"
     PLACEMENT ||--|| PROVIDER : "has a"
     PLACEMENT ||--|| PLACEMENT_TYPE: "has a"
-    PLACEMENT ||--|| PLACEMENT_RECOMMENDATION: "has a"
     PLACEMENT ||--|| REFERRAL : "linked to"
     CHILD ||--|{ REFERRAL : "linked to"
     REFERRAL ||--o{ IMPORTANT_LOCATION : "has a"
@@ -36,7 +35,7 @@ erDiagram
         string school_location
         string placement_name
     }
-    PLACEMENT_RECOMMENDATION {
+    PLACEMENT_TYPE {
         string id PK
         boolean foster_care
         boolean residentail_care
@@ -48,11 +47,6 @@ erDiagram
         string location
         int budget
         string placement_name
-    }
-    PLACEMENT_TYPE {
-        string id PK
-        boolean residential
-        boolean other    
     }
     REFERRAL {
         int id PK
