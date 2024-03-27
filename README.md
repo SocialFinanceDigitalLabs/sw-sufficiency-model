@@ -12,7 +12,7 @@ erDiagram
     REFERRAL ||--o{ IMPORTANT_LOCATION : "has a"
     PLACEMENT ||--o{ NEEDS : "has a"
     PLACEMENT ||--o{ RISKS : "has a"
-    PLACEMENT ||--o{ FINANCE : "linked to"
+    PLACEMENT ||--|| FINANCE : "linked to"
     CHILD {
         string id PK
         string first_name
