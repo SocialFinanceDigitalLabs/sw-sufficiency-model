@@ -5,6 +5,7 @@ erDiagram
     CHILD ||--|| PLACEMENT : "linked to"
     PLACEMENT ||--o{ RISKS : "has a"
     PLACEMENT ||--o{ NEEDS : "has a"
+    PLACEMENT ||--|| FINANCE : "linked to"
     CHILD {
         string id PK
         string first_name
