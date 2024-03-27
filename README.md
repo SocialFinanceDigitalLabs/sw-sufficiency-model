@@ -12,6 +12,7 @@ erDiagram
     REFERRAL ||--o{ IMPORTANT_LOCATION : "has a"
     PLACEMENT ||--o{ NEEDS : "has a"
     PLACEMENT ||--o{ RISKS : "has a"
+    PLACEMENT ||--o{ FINANCE : "linked to"
     CHILD {
         string id PK
         string first_name
@@ -89,5 +90,12 @@ erDiagram
         boolean risk_to_others_harm_animals
         boolean risk_to_others_criminal_exploitation
         string risk_to_others_specify
+    }
+    FINANCE {
+        string id PK
+        int core_cost
+        int non_core_cost
+        int additional_costs
+        int siblings
     }
 ```
