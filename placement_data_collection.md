@@ -49,6 +49,5 @@ erDiagram
         int core_cost
         int non_core_cost
         int additional_costs
-        int siblings
     }
 ```
