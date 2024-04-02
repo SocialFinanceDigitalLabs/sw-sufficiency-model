@@ -46,8 +46,6 @@ erDiagram
     }
     FINANCE {
         string id PK
-        int core_cost
-        int non_core_cost
-        int additional_costs
+        int planned_weekly_cost
     }
 ```
