@@ -1,5 +1,7 @@
 # sw-sufficiency-model
 
+## header
+
 ```mermaid
 erDiagram
     CHILD ||--|| GENDER_IDENTITY : "has a"
