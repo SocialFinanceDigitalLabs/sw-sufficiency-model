@@ -35,6 +35,7 @@ erDiagram
         categorical placement_type
         string school_location
         string placement_name
+        categorical planned_or_emergency_placement
     }
     PLACEMENT_TYPE {
         string id PK
@@ -69,7 +70,7 @@ erDiagram
     }
     NEEDS {
         int id PK
-        categorical comms_req
+        categorical learning_comms_req
         boolean adaptation_to_home
         boolean cultural_needs
         boolean sibling_placement
@@ -93,8 +94,6 @@ erDiagram
     }
     FINANCE {
         string id PK
-        int core_cost
-        int non_core_cost
-        int additional_costs
+        int total_planned_weekly_cost
     }
 ```
