@@ -1,6 +1,7 @@
-| Item              | In Stock | Price |
-| :---------------- | :------: | ----: |
-| Python Hat        |   True   | 23.99 |
-| SQL Hat           |   True   | 23.99 |
-| Codecademy Tee    |  False   | 19.99 |
-| Codecademy Hoodie |  False   | 42.99 |
+| Field                                      | Field Type  | Description                                                                                               | Options               | Stage of data collection | Example  | Comments |
+| :----------------------------------------- | :---------: | :-------------------------------------------------------------------------------------------------------- | :-------------------- | :---------------------- | :------: | -------- |
+| **Child ID**                               | ID Number   | Please enter the unique ID used in your Case Mgmt System.                                                 | ID no.                | Home search             | 12346    | This field links data captured at home search start with post-finding data. Stored in a spreadsheet. |
+| **Local Identifier**                       | Text        | Whatever ID you use to refer to the child (e.g., initials). Not used in data analysis.                    | Free text             | Home search             | TR       | Assists officers in recalling the child more easily. Stored in a spreadsheet. |
+| **Is this a planned or emergency home search?** | Dropdown    | Specify whether this is an emergency search.                                                              | Planned/Emergency     | Home search             | Planned  | Highlights urgency. Added after testing phase showed delays in emergency placements. Info on referral form. |
+| **Latest date for placement to start by**  | Date        | What date does the child need placement? Provide an approximate if no exact date.                         | Date                  | Home search             | 30-Mar-24 | Placement timing may be flexible; enter latest effective date. Info on referral form may not be exact. |
+| **Number of siblings to place with**       | Number      | How many siblings need placement together? If none, input 0.                                              | Number                | Home search             | 2        | Helps determine sibling placement needs. Social workers should provide details when possible. |
