@@ -1,4 +1,4 @@
-| **Section** | **Field** | **Description** | **Options** | **Example** | **TYPE (string, category, free etc.)** | **Detail on the rules/restrictions** | **Refined version of 'when collected'** |
+| **Section - 1** | **Field** | **Description** | **Options** | **Example** | **TYPE (string, category, free etc.)** | **Detail on the rules/restrictions** | **Refined version of 'when collected'** |
 |------------|----------|---------------|-----------|---------|--------------------------------|---------------------------------|-----------------------------|
 | **Identifying the child** | Child ID | Please enter the unique ID used in your Case Mgmt System | ID no. | 12346 | Integer | Child initials along with string of numbers (4-6 numbers) | At referral |
 | | Local Identifier | Whatever ID you use to refer to the child (e.g. initials). This is not used in the data analysis. | Free text | TR | String | Child initials, free text (initials of officer - not more than 4 strings allowed) | At referral |
