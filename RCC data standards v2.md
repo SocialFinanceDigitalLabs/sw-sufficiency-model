@@ -33,26 +33,5 @@ Below is a preview of the dataset:
 ## Usage Instructions
 To use this dataset:
 1. **Download the file** from GitHub.
-2. Open it using Excel, Google Sheets, or a programming language like Python (`pandas`). Example in Python:
 
-   ```python
-   import pandas as pd
 
-   df = pd.read_excel("RCC_v1.xlsx", sheet_name="Sheet1")
-   print(df.head())
-   ```
-
-## Potential Applications
-This dataset can be used for:
-- **[Application 1]**: (e.g., Data analysis, trend identification, forecasting, etc.)
-- **[Application 2]**: (e.g., Machine learning, visualization, reporting, etc.)
-- **[Application 3]**: (e.g., Scientific research, business intelligence, etc.)
-
-## Contributing
-If you'd like to contribute to this dataset, feel free to submit a pull request or open an issue!
-
-## License
-[Specify license, e.g., MIT, CC-BY, etc.]
-
----
-*For questions or discussions, please open an issue on GitHub.*
