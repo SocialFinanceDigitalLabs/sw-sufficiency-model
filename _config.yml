@@ -1,0 +1,8 @@
+theme: minima
+title: Sufficiency Model
+description: Data Model
+mermaid: true
+github:
+  public: true
+  repository_url: https://github.com/SocialFinanceDigitalLabs/sw-sufficiency-model
+  owner_url: https://github.com/SocialFinanceDigitalLabs/
